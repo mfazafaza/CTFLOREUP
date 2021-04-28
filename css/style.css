@@ -1,16 +1,23 @@
+body {
+    background-image: url("img/hacker.jpg");
+}
+
 .collapsible {
     background-color: #adacac;
     color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    border: 1px solid rgba(81, 203, 238, 1);
     font-size: large;
     text-align: left;
     outline: none;
     font-size: 23px;
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
+    /* box-shadow: 0 8px 40px 0 rgba( 31, 38, 135, 0.37 ); */
+    
+
   }
   
   .active, .collapsible:hover {
@@ -34,6 +41,10 @@ img.img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .container img{
+    margin-top: 50px;
   }
 
   h2 {
