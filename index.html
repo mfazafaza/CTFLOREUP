@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="img/jpg" href="img/loreuplogo.png">
+    <title>CTF-LoreUp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+<img class="img" src="img/loreup.png" alt="" width="200">
+<h2>Capture The Flag 🏁</h2>
+
+<p>NOTE 🧭</p>
+<button type="button" class="collapsible">Lihat Pesan</button>
+<div class="content">
+  <p>Seseorang <strong>Hacker</strong> baru saja memasukan Malware kedalam sistem database PT Debdest ID , Tugas anda adalah cari kunci <b>Enkripsi</b> 
+    tersebut dan Laporkannya kepada Admin.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<script>const enkripsi = {
+    name : 'loreup',
+    author : 'SGFja2xvcmVWUA=='
+  };
+  console.log(enkripsi);</script>
+</body>
+</html>
